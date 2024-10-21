@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+        <div class="playBoad">
+          <div class="player player--active">
+            <h3 class="name">PLAYER 1</h3>
+            <div class="score score-reset">0</div>
+            <div class="current">
+              <p class="current-label">Current</p>
+              <p class="current-score score-reset">0</p>
+            </div>
+          </div>
+          <div class="player">
+            <h3 class="name">PLAYER 2</h3>
+            <div class="score score-reset">0</div>
+            <div class="current">
+              <p class="current-label">Current</p>
+              <p class="current-score score-reset">0</p>
+            </div>
+          </div>
+          <div id="dice" class="dice">
+            <div class="dot one"></div>
+            <div class="dot two"></div>
+            <div class="dot three"></div>
+            <div class="dot four"></div>
+            <div class="dot five"></div>
+            <div class="dot six"></div>
+            <div class="dot seven"></div>
+            <div class="dot eight"></div>
+            <div class="dot nine"></div>
+        </div>
+
+          <button type="button" class="btn btn-new">
+            NEW GAME
+          </button>
+          <button type="button" class="btn btn-roll">
+            ROLL DICE
+          </button>
+          <button type="button" class="btn btn-hold">
+            HOLD
+          </button>
+        </div>
+        <div class="modal">
+          <p class="modal-msg"></p>
+          <button type="button" class="btn btn-new">
+            NEW GAME
+          </button>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
